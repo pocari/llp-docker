@@ -3,6 +3,8 @@ FROM debian:jessie
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+RUN cp ./.vimrc /root
+
 RUN set -ex \
     && apt-get update \
     && apt-get install -y \

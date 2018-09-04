@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  debian:
+    image: pocari/llp-docker:latest
+    volumes:
+      - .:/usr/src/app
