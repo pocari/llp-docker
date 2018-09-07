@@ -11,6 +11,7 @@ RUN set -ex \
                make \
                gdb \
                vim \
+               auditd \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
