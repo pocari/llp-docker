@@ -14,4 +14,5 @@ RUN set -ex \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
+ENV HISTFILE=/usr/src/app/.bash_history
 ADD /.vimrc /root
