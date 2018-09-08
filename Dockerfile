@@ -12,6 +12,7 @@ RUN set -ex \
                gdb \
                vim \
                auditd \
+               python \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
