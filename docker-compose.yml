@@ -4,3 +4,5 @@ services:
     image: pocari/llp-docker:v1
     volumes:
       - .:/usr/src/app
+    cap_add:
+      - SYS_PTRACE
