@@ -20,3 +20,4 @@ RUN set -ex \
 
 ENV HISTFILE=/usr/src/app/.bash_history
 ADD /.vimrc /root
+ADD /.gdbinit /root
