@@ -13,6 +13,8 @@ RUN set -ex \
                vim \
                auditd \
                python \
+               man-db \
+               manpages-dev \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
