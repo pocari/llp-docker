@@ -7,7 +7,8 @@ RUN set -ex \
     && apt-get update \
     && apt-get install -y \
                nasm \
-               binutils \
+               g++ \
+               make \
                gdb \
                vim \
                auditd \
