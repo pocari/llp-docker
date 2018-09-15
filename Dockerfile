@@ -7,14 +7,12 @@ RUN set -ex \
     && apt-get update \
     && apt-get install -y \
                nasm \
-               g++ \
-               make \
-               gdb \
                vim \
                auditd \
                python \
                man-db \
                manpages-dev \
+               build-essential \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
