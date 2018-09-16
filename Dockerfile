@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 RUN set -ex \
     && apt-get update \
     && apt-get install -y \
+               gdb \
                nasm \
                vim \
                auditd \
