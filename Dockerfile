@@ -14,6 +14,7 @@ RUN set -ex \
                man-db \
                manpages-dev \
                build-essential \
+               gforth \
                --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
